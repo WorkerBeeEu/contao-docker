@@ -1,0 +1,23 @@
+composer.lock
+.env.local
+assets/
+contao-manager/
+!contao-manager/users.json
+system/
+!system/config/localconfig.php
+var/cache
+var/logs
+var/jwt_secret
+# comment line to save backups in git
+var/backups 
+vendor/
+web/assets
+web/bundles
+web/files
+web/share
+web/system
+web/app.php
+web/index.php
+web/preview.php
+web/contao-manager.phar
+web/system
